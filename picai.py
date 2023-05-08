@@ -13,7 +13,7 @@ class picai_handler:
       return None
     self.extract_zips()
     for i in range(howMany):
-      rsyncCMD = "rsync -a /content/drive/MyDrive/picai-challenge-data/unzipped/picai_public_images_fold"+str(i)+"/ /content/drive/MyDrive/picai-challenge-data/merged_unzipped/"
+      rsyncCMD = "rsync -a ../picai-challenge-data/unzipped/picai_public_images_fold"+str(i)+"/ ../picai-challenge-data/merged_unzipped/"
       subprocess.run(rsyncCMD, shell = True)
   
   def doPaths(self, path):
