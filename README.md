@@ -5,7 +5,7 @@ To easily download the data from picai, create an instance of picai-handler (fro
 The model was trained using the training loop in train.py. The saved model is the one used in Deploy.py. It needs to be in the same directory as Deploy.py.
 
 The streamlit code for this is in Deploy.py.
-We took the model from given github https://github.com/s0mnaths/Brain-Tumor-Segmentation and modified it to make it for multitasking learning. This model gives labelled image with tumor masked with white region and also give the ISUP case define in this given page https://pi-cai.grand-challenge.org/AIPR/.
+We took the model from given github https://github.com/s0mnaths/Brain-Tumor-Segmentation and modified it to make it for multitasking learning. This model gives labelled image with tumor masked with white region and also give the ISUP case.
 
 <h1> Dependencies </h1>
 The libraries required for train.py are - 
