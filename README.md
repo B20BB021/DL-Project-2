@@ -6,25 +6,48 @@ The model was trained using the training loop in train.py. The saved model is th
 
 The streamlit code for this is in Deploy.py.
 
+<h1> Dependencies </h1>
 The libraries required for train.py are - 
-  medpy
-  torch
-  torchvision
-  numpy
-  pandas
-  os
-  pickle
-  
+<ol>
+  <li>medpy</li>
+  <li>torch</li>
+  <li>torchvision</li>
+  <li>numpy</li>
+  <li>pandas</li>
+  <li>os</li>
+  <li>pickle</li>
+</ol>
 The libraries required for Deploy.py are -
   
-  
-The libraries required for download.py are - 
-  requests
-  ZipFile
-  os
-  subprocess
 
-You can install all of the above using pip install LibraryName
+The libraries required for download.py are - 
+<ol>
+  <li>requests</li>
+  <li>ZipFile</li>
+  <li>os</li>
+  <li>subprocess</li>
+</ol>
+You can install all of the above using 
+
+```sh
+pip install LibraryName
+```
 
 Running download.py from this directory should install all the data in the right place for train.py.
-So just use python download.py to download the data.
+So just use the following. 
+
+```sh
+python download.py 
+```
+
+To train the model - 
+
+```sh
+python train.py 
+```
+
+The entire code that we used in the form of a notebook is present in notebook.ipynb.
+
+Technically you don't need any of this, only the model is required.
+
+You can download the model directly from the following link - <a href = ''>LINK</a>
