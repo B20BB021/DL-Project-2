@@ -51,4 +51,4 @@ The entire code that we used in the form of a notebook is present in notebook.ip
 
 Technically you don't need any of this, only the model is required.
 
-You can download the model directly from the following link - <a href = ''>LINK</a>
+You can download the model directly from the following link - <a href = 'https://drive.google.com/file/d/1GMgfphsoy0O51RGa9e8RzyNeIN_3SikG/view?usp=sharing'>LINK</a>
