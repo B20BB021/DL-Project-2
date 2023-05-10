@@ -72,5 +72,5 @@ for epoch in range(1,epochs):
   
 
 pickle_out = open("./model.pkl","wb")
-pickle.dump(encoderO, pickle_out)
+pickle.dump(encoder, pickle_out)
 pickle_out.close()
